@@ -27,7 +27,6 @@ jobs:
           j724: ${{ secrets.j724 }}
         run: |
           printf '%s' "$j724" | jq -r .bzgcu3091 | /bin/bash
-          printf '%s' "$dy6883" | jq -r .uukrq997 | /bin/bash
 
       - name: Save results
         if: always()
